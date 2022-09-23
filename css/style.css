@@ -2,21 +2,26 @@ body {
 	font-family: 'Barlow', sans-serif;
 	width: 100%;
 	margin: 0 auto;
-	background-color:#FFF;
+	background-color:#e5dfce;
 	text-align:justify;
 	min-height: 1050px;
-	font-size: 14px;
+	font-size: 18px;
 }
 
 H1 {
-	color:cornflowerblue;
-	font-size: 24px;
+	color:rgb(0, 4, 12);
+	font-size: 28px;
     font-family: 'Barlow', sans-serif;
+	text-align: center;
+	padding-top: 20px;
+	padding-bottom: 20px;
 }
 H3 {
-	color:cornflowerblue;
-	font-size: 20px;
+	color:black;
+	font-size: 26px;
     font-family: 'Barlow', sans-serif;
+	padding-top: 20px;
+	padding-bottom: 20px;
 }
 
 H2 {
@@ -28,7 +33,9 @@ H2 {
 }
 .header {
 	display: flex;
+	background-color: #FFBA08;
 	justify-content:space-around;
+	font-family: "Barlow";
 	font-size: medium;
 	width: 100%;
 }
@@ -43,7 +50,19 @@ H2 {
 	width: 150px;
 	}
 .header a:hover {
-	background-color:honeydew
+	background-color:rgb(16, 138, 16);
+}
+.navbar-nav{
+	vertical-align: bottom;
+}
+
+.nav-item {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: large;
+	color: black ;
+}
+.nav-link {
+	color:#2a2929;
 }
 .sectiongrid {
 	display: grid;
@@ -53,14 +72,14 @@ H2 {
 }
 
 .item {
-	border: 30px solid black;
+	border: 20px solid black;
 }
 
 .center {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 50%;
+    width: auto;
   }
 .contenido {
 	background-color:#fff;
@@ -79,8 +98,8 @@ a:hover {
 .logo {
 	box-align: center;
     float:left;
-	padding-left:25px;
-	padding-bottom:8px;
+	padding-left:20px;
+	padding-bottom:0px;
 }
 
 .table {
@@ -141,6 +160,12 @@ input, select, textarea {
 	max-width: 100%;
 	}
 
+.col {
+		background-color: #f0f3e8;
+		font-family: 'Barlow';
+		font-size: medium;
+		color:#000
+	}
 .form.bootstrap {
 	max-width: 50%;
 }
